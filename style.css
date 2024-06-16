@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#start-screen, #game-screen {
+    padding: 20px;
+}
+
+button {
+    background-color: #ffa500;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px; /* Butoane rotunjite */
+}
+
+button:hover {
+    background-color: #ffcc00;
+}
+
+#keyboard button {
+    background-color: #ffa500;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 10px; /* Butoane rotunjite */
+}
+
+#keyboard button:hover {
+    background-color: #ffcc00;
+}
+
+.correct {
+    background-color: #90ee90; /* Verde pal */
+    color: #000;
+}
+
+.incorrect {
+    background-color: #f08080; /* Roșu pal */
+    color: #000;
+}
+
+#word {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#message {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+#restart-container {
+    margin-top: 20px;
+}
+
+canvas {
+    background-color: #fff;
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #000;
+}
+
+button.disabled {
+    background-color: #888; /* Gri pentru butoanele dezactivate */
+    color: #fff;
+    cursor: not-allowed;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="start-screen">
+        <h1>Hangman Game</h1>
+        <label for="word-length">How many letters will the word have?</label>
+        <input type="number" id="word-length" min="1">
+        <button id="start-game">Start Game</button>
+    </div>
+    <div id="game-screen" style="display: none;">
+        <div id="word"></div>
+        <canvas id="hangman" width="200" height="200"></canvas>
+        <div id="keyboard"></div>
+        <div id="message"></div>
+        <div id="restart-container" style="display: none;">
+            <button id="restart-game">Restart Game</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
